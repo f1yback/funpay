@@ -2,7 +2,7 @@
 
 namespace FpDbTest;
 
-use http\Exception\RuntimeException;
+use RuntimeException;
 
 enum PlaceholderEnum: string
 {
