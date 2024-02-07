@@ -106,6 +106,7 @@ class Database implements DatabaseInterface
                 } else {
                     $index++;
                 }
+
                 if ($index <= 0 || $index >= array_key_last($this->rawQuery)) {
                     throw new RuntimeException('Out of range');
                 }
